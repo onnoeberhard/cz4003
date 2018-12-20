@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n+nb}{figure}
+\PYG{n+nb}{imagesc}\PYG{p}{(}\PYG{n}{log10}\PYG{p}{(}\PYG{n}{S}\PYG{p}{))}
+\PYG{n}{x1} \PYG{p}{=} \PYG{l+m+mi}{249}\PYG{p}{;}
+\PYG{n}{y1} \PYG{p}{=} \PYG{l+m+mi}{17}\PYG{p}{;}
+\PYG{n}{x2} \PYG{p}{=} \PYG{l+m+mi}{9}\PYG{p}{;}
+\PYG{n}{y2} \PYG{p}{=} \PYG{l+m+mi}{241}\PYG{p}{;}
+\end{Verbatim}

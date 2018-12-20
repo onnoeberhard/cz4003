@@ -1,15 +1,17 @@
 %% 1.a Load image and transform to greyscale
 img = imread('mrt-train.jpg');
-size(img)
+whos img
+%size(img)
+%%
 img = rgb2gray(img);
-size(img)
+whos img
 
 %% 1.b Display the image
-figure()
+figure
 imshow(img)
 
 %% 1.c Find minimum and maximum intensity values (ideally 0 and 255)
-r_min = double(min(img(:)))
+r_min = double(min(img(:)))    % Convert to double for later use
 r_max = double(max(img(:)))
 
 %% 1.d Contrast stretching
@@ -17,50 +19,41 @@ img = uint8(255 * (double(img) - r_min) / (r_max - r_min));
 assert(min(img(:)) == 0 && max(img(:)) == 255)    % Check if it worked
 
 %% 1.e Display the enhanced image
-figure()
+figure
 imshow(img)
 
 %% 2.a Intensity histograms
-figure()
+figure
 imhist(img, 10)
-figure()
+figure
 imhist(img, 256)
-% The first histogram shows much less detail, it divides the 256 intensity
-% levels into 10, making every bin hold on average 256/10 = 25.6 times as 
-% many pixels as in the second histogram, where all 256 intensity levels
-% get their own bin. An example of detail that gets lost in the first
-% histogram is the spike at the intensity levels between 220 and 226.
 
 %% 2.b Histogram equalization
 img_eq = histeq(img, 256);    % 256 discrete intensity levels -> N=256
-figure()
+figure
 imhist(img_eq, 10)
-figure()
+figure
 imhist(img_eq, 256)
 %% 2.c Repeat histogram equalization
 img_eq2 = histeq(img_eq, 256);
-figure()
+figure
 imhist(img_eq2, 10)
-figure()
+figure
 imhist(img_eq2, 256)
-% The histograms do not become more uniform. In history equalization, 
-% repeated application does not lead to better results. This is because 
-% bins will only be combined, and never separated in the algorithm.
-% This means the optimum for this algorithm is not necessarily a completely
-% flat histogram.
 
 %% 3.a Generate the filters
-h = @(sigma, x, y) 1 / (2 * pi * sigma^2) * exp(-(x.^2 + y.^2) / (2 * sigma^2));
+h = @(sigma, x, y) 1 / (2 * pi * sigma^2) ...
+                   * exp(-(x.^2 + y.^2) / (2 * sigma^2));
 [x, y] = meshgrid(-2:2);
 h1 = h(1, x, y);
 h1 = h1 / sum(h1(:));
 h2 = h(2, x, y);
 h2 = h2 / sum(h2(:));
 
-figure()
-mesh(x, y, h1)
-figure()
-mesh(x, y, h2)
+figure
+surf(x, y, h1)    % Mesh looked more boring
+figure
+surf(x, y, h2)
 
 %% 3.b Load and view image
 img = imread('ntugn.jpg');
@@ -69,11 +62,11 @@ imshow(img)
 
 %% 3.c Filtering the images
 img_h1 = uint8(conv2(img, h1));
-figure()
+figure
 imshow(img_h1)
 
 img_h2 = uint8(conv2(img, h2));
-figure()
+figure
 imshow(img_h2)
 
 % The filters are not very effective at removing the noise, it is still
@@ -85,56 +78,56 @@ imshow(img_h2)
 
 %% 3.d Speckle noise
 img = imread('ntusp.jpg');
-figure()
+figure
 imshow(img)
 
-%% 3.e Filtering
+%% 3.e Filtering speckle noise
 img_h1 = uint8(conv2(img, h1));
-figure()
+figure
 imshow(img_h1)
 
 img_h2 = uint8(conv2(img, h2));
-figure()
+figure
 imshow(img_h2)
 
 % The filters are better at handling gaussian noise than speckle noise. For
 % speckle noise a median filter is better suited.
 
-%% 4. Median filtering gaussian noise
+%% 4.1 Median filtering gaussian noise
 img = imread('ntugn.jpg');
 
 img_h1 = uint8(medfilt2(img, [3, 3]));
-figure()
+figure
 imshow(img_h1)
 
 img_h2 = uint8(medfilt2(img, [5, 5]));
-figure()
+figure
 imshow(img_h2)
 
 %% 4.2 Median filtering speckle noise
 img = imread('ntusp.jpg');
 
 img_h1 = uint8(medfilt2(img, [3, 3]));
-figure()
+figure
 imshow(img_h1)
 
 img_h2 = uint8(medfilt2(img, [5, 5]));
-figure()
+figure
 imshow(img_h2)
 
 %% 5.a Interference patterns
 img = imread('pckint.jpg');
-figure()
+figure
 imshow(img)
 
 %% 5.b Compute Fourier spectrum
 ft = fft2(img);
 S = abs(ft).^2 / length(img);
-figure()
-imagesc(fftshift(log10(S)))
+figure
+imagesc(fftshift(log10(S)))    % Using log10 instead of 10th root
 
 %% 5.c Reading coordinates
-figure()
+figure
 imagesc(log10(S))
 x1 = 249;
 y1 = 17;
@@ -145,37 +138,46 @@ y2 = 241;
 ft(y1-2 : y1+2, x1-2 : x1+2) = 0;
 ft(y2-2 : y2+2, x2-2 : x2+2) = 0;
 S = abs(ft).^2 / length(img);
-figure()
+figure
 imagesc(fftshift(log10(S)))
 
 %% 5.e Inverse Fourier transform
 img = uint8(ifft2(ft));
-figure()
+figure
 imshow(img)
 
+% Additional Filtering
 ft(y1, :) = 0;
 ft(y2, :) = 0;
 ft(:, x1) = 0;
 ft(:, x2) = 0;
 S = abs(ft).^2 / length(img);
-figure()
+figure
 imagesc(fftshift(log10(S)))
-
 img = uint8(ifft2(ft));
-figure()
+
+% Contrast Stretching
+r_min = double(min(img(:)));
+r_max = double(max(img(:)));
+img = uint8(255 * (double(img) - r_min) / (r_max - r_min));
+
+figure
 imshow(img)
 
 %% 5.f Jailbreak
+% Display image
 img = imread('primatecaged.jpg');
 img = rgb2gray(img);
-figure()
+figure
 imshow(img)
 
+% Compute and display Fourier spectrum
 ft = fft2(img);
 S = abs(ft).^2 / length(img);
-figure()
+figure
 imagesc(fftshift(log10(S)))
 
+% Filter out frequencies corresponding to the fence
 x1 = 11;
 y1 = 252;
 x2 = 247;
@@ -189,10 +191,12 @@ ft(y2-2 : y2+2, x2-2 : x2+2) = 0;
 ft(y3-2 : y3+2, x3-2 : x3+2) = 0;
 ft(y4-2 : y4+2, x4-2 : x4+2) = 0;
 S = abs(ft).^2 / length(img);
-figure()
-imagesc((log10(S)))
+figure
+imagesc(log10(S))
+
+% Display new image
 img = uint8(ifft2(ft));
-figure()
+figure
 imshow(img)
 
 %% 6.a Load and view the image
@@ -216,12 +220,12 @@ u = A \ v;
 U = reshape([u; 1], 3, 3)'   % Print U matrix
 
 % Verify U matrix
-w = U*[X'; Y'; ones(1,4)];
-w = w ./ (ones(3,1) * w(3,:));
-w
+w = U * [X'; Y'; ones(1,4)];
+w = w ./ (ones(3,1) * w(3,:))
 
 %% 6.d Warp and show image
 T = maketform('projective', U');
 i2 = imtransform(img, T, 'XData', [0 210], 'YData', [0 297]);
-figure()
+%%
+figure
 imshow(i2)

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n}{img} \PYG{p}{=} \PYG{n+nb}{imread}\PYG{p}{(}\PYG{l+s}{\PYGZsq{}maccropped.jpg\PYGZsq{}}\PYG{p}{);}
+\PYG{n}{img} \PYG{p}{=} \PYG{n}{im2double}\PYG{p}{(}\PYG{n}{rgb2gray}\PYG{p}{(}\PYG{n}{img}\PYG{p}{));}    \PYG{c}{\PYGZpc{} Convert to double for easier use}
+
+\PYG{n+nb}{figure}
+\PYG{n+nb}{imshow}\PYG{p}{(}\PYG{n}{img}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n}{T} \PYG{p}{=} \PYG{n}{maketform}\PYG{p}{(}\PYG{l+s}{\PYGZsq{}projective\PYGZsq{}}\PYG{p}{,} \PYG{n}{U}\PYG{o}{\PYGZsq{}}\PYG{p}{);}
+\PYG{n}{i2} \PYG{p}{=} \PYG{n}{imtransform}\PYG{p}{(}\PYG{n}{img}\PYG{p}{,} \PYG{n}{T}\PYG{p}{,} \PYG{l+s}{\PYGZsq{}XData\PYGZsq{}}\PYG{p}{,} \PYG{p}{[}\PYG{l+m+mi}{0} \PYG{l+m+mi}{210}\PYG{p}{],} \PYG{l+s}{\PYGZsq{}YData\PYGZsq{}}\PYG{p}{,} \PYG{p}{[}\PYG{l+m+mi}{0} \PYG{l+m+mi}{297}\PYG{p}{]);}
+\end{Verbatim}

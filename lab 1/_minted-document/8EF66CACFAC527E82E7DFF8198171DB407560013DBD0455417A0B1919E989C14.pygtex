@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{p}{[}\PYG{n}{X}\PYG{p}{,} \PYG{n}{Y}\PYG{p}{]} \PYG{p}{=} \PYG{n+nb}{ginput}\PYG{p}{(}\PYG{l+m+mi}{4}\PYG{p}{);}
+\PYG{n}{x} \PYG{p}{=} \PYG{p}{[}\PYG{l+m+mi}{0} \PYG{l+m+mi}{210} \PYG{l+m+mi}{210} \PYG{l+m+mi}{0}\PYG{p}{];}
+\PYG{n}{y} \PYG{p}{=} \PYG{p}{[}\PYG{l+m+mi}{0} \PYG{l+m+mi}{0} \PYG{l+m+mi}{297} \PYG{l+m+mi}{297}\PYG{p}{];}
+\end{Verbatim}

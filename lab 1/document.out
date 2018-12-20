@@ -1,0 +1,32 @@
+\BOOKMARK [1][-]{section.1}{Contrast Stretching}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Load image and transform to greyscale}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Display the image}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Find minimum and maximum intensity values}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Contrast stretching}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{Display the enhanced image}{section.1}% 6
+\BOOKMARK [1][-]{section.2}{Histogram Equalization}{}% 7
+\BOOKMARK [2][-]{subsection.2.1}{Intensity histograms}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.2}{Histogram equalization}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.3}{Repeat histogram equalization}{section.2}% 10
+\BOOKMARK [1][-]{section.3}{Linear Spatial Filtering}{}% 11
+\BOOKMARK [2][-]{subsection.3.1}{Generate the filters}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.2}{Load and view image}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.3}{Filtering the images}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.4}{Speckle noise}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.5}{Filtering speckle noise}{section.3}% 16
+\BOOKMARK [1][-]{section.4}{Median Filtering}{}% 17
+\BOOKMARK [2][-]{subsection.4.1}{Median filtering gaussian noise}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.2}{Median filtering speckle noise}{section.4}% 19
+\BOOKMARK [1][-]{section.5}{Suppressing Noise Interference Patterns}{}% 20
+\BOOKMARK [2][-]{subsection.5.1}{Interference patterns}{section.5}% 21
+\BOOKMARK [2][-]{subsection.5.2}{Compute Fourier spectrum}{section.5}% 22
+\BOOKMARK [2][-]{subsection.5.3}{Reading coordinates}{section.5}% 23
+\BOOKMARK [2][-]{subsection.5.4}{Filtering}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.5}{Inverse Fourier transform}{section.5}% 25
+\BOOKMARK [2][-]{subsection.5.6}{Jailbreak}{section.5}% 26
+\BOOKMARK [1][-]{section.6}{Undoing Perspective Distortion of Planar Surface}{}% 27
+\BOOKMARK [2][-]{subsection.6.1}{Load and display the image}{section.6}% 28
+\BOOKMARK [2][-]{subsection.6.2}{Specifying coordinates}{section.6}% 29
+\BOOKMARK [2][-]{subsection.6.3}{Linear algebra intermezzo}{section.6}% 30
+\BOOKMARK [2][-]{subsection.6.4}{Warping the image}{section.6}% 31
+\BOOKMARK [2][-]{subsection.6.5}{Displaying the result}{section.6}% 32

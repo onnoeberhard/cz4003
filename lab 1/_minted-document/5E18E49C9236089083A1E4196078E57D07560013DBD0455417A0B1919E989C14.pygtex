@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n}{img} \PYG{p}{=} \PYG{n}{uint8}\PYG{p}{(}\PYG{l+m+mi}{255} \PYG{o}{*} \PYG{p}{(}\PYG{n+nb}{double}\PYG{p}{(}\PYG{n}{img}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{n}{r\PYGZus{}min}\PYG{p}{)} \PYG{o}{/} \PYG{p}{(}\PYG{n}{r\PYGZus{}max} \PYG{o}{\PYGZhy{}} \PYG{n}{r\PYGZus{}min}\PYG{p}{));}
+\PYG{n+nb}{assert}\PYG{p}{(}\PYG{n+nb}{min}\PYG{p}{(}\PYG{n}{img}\PYG{p}{(:))} \PYG{o}{==} \PYG{l+m+mi}{0} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{n+nb}{max}\PYG{p}{(}\PYG{n}{img}\PYG{p}{(:))} \PYG{o}{==} \PYG{l+m+mi}{255}\PYG{p}{)}    \PYG{c}{\PYGZpc{} Check if it worked}
+\end{Verbatim}

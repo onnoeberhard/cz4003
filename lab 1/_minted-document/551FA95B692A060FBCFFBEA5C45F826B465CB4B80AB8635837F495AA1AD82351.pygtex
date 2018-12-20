@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+U =
+
+    1.4539    1.5657 \PYGZhy{}253.2027
+   \PYGZhy{}0.4499    3.7341  \PYGZhy{}39.7702
+    0.0001    0.0054    1.0000
+
+
+w =
+
+   \PYGZhy{}0.0000  210.0000  210.0000   \PYGZhy{}0.0000
+         0         0  297.0000  297.0000
+    1.0000    1.0000    1.0000    1.0000
+\end{Verbatim}

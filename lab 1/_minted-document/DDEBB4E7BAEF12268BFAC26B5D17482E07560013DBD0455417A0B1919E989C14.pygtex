@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n}{img} \PYG{p}{=} \PYG{n+nb}{imread}\PYG{p}{(}\PYG{l+s}{\PYGZsq{}ntusp.jpg\PYGZsq{}}\PYG{p}{);}
+\PYG{n+nb}{figure}
+\PYG{n+nb}{imshow}\PYG{p}{(}\PYG{n}{img}\PYG{p}{)}
+\end{Verbatim}

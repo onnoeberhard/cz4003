@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n}{r\PYGZus{}min} \PYG{p}{=} \PYG{n+nb}{double}\PYG{p}{(}\PYG{n+nb}{min}\PYG{p}{(}\PYG{n}{img}\PYG{p}{(:)))}    \PYG{c}{\PYGZpc{} Convert to double for later use}
+\PYG{n}{r\PYGZus{}max} \PYG{p}{=} \PYG{n+nb}{double}\PYG{p}{(}\PYG{n+nb}{max}\PYG{p}{(}\PYG{n}{img}\PYG{p}{(:)))}
+\end{Verbatim}

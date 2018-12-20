@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n}{img\PYGZus{}t1} \PYG{p}{=} \PYG{n}{edges} \PYG{o}{\PYGZgt{}} \PYG{p}{.}\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{n}{img\PYGZus{}t2} \PYG{p}{=} \PYG{n}{edges} \PYG{o}{\PYGZgt{}} \PYG{p}{.}\PYG{l+m+mi}{3}\PYG{p}{;}
+\PYG{n}{img\PYGZus{}t3} \PYG{p}{=} \PYG{n}{edges} \PYG{o}{\PYGZgt{}} \PYG{p}{.}\PYG{l+m+mi}{5}\PYG{p}{;}
+
+\PYG{n+nb}{figure}
+\PYG{n+nb}{imshow}\PYG{p}{(}\PYG{n}{img\PYGZus{}t1}\PYG{p}{)}
+\PYG{n+nb}{figure}
+\PYG{n+nb}{imshow}\PYG{p}{(}\PYG{n}{img\PYGZus{}t2}\PYG{p}{)}
+\PYG{n+nb}{figure}
+\PYG{n+nb}{imshow}\PYG{p}{(}\PYG{n}{img\PYGZus{}t3}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,32 @@
+\contentsline {section}{\numberline {1}Contrast Stretching}{2}{section.1}
+\contentsline {subsection}{\numberline {a}Load image and transform to greyscale}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {b}Display the image}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {c}Find minimum and maximum intensity values}{3}{subsection.1.3}
+\contentsline {subsection}{\numberline {d}Contrast stretching}{4}{subsection.1.4}
+\contentsline {subsection}{\numberline {e}Display the enhanced image}{4}{subsection.1.5}
+\contentsline {section}{\numberline {2}Histogram Equalization}{5}{section.2}
+\contentsline {subsection}{\numberline {a}Intensity histograms}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {b}Histogram equalization}{6}{subsection.2.2}
+\contentsline {subsection}{\numberline {c}Repeat histogram equalization}{7}{subsection.2.3}
+\contentsline {section}{\numberline {3}Linear Spatial Filtering}{9}{section.3}
+\contentsline {subsection}{\numberline {a}Generate the filters}{9}{subsection.3.1}
+\contentsline {subsection}{\numberline {b}Load and view image}{9}{subsection.3.2}
+\contentsline {subsection}{\numberline {c}Filtering the images}{10}{subsection.3.3}
+\contentsline {subsection}{\numberline {d}Speckle noise}{11}{subsection.3.4}
+\contentsline {subsection}{\numberline {e}Filtering speckle noise}{12}{subsection.3.5}
+\contentsline {section}{\numberline {4}Median Filtering}{13}{section.4}
+\contentsline {subsection}{\numberline {a}Median filtering gaussian noise}{13}{subsection.4.1}
+\contentsline {subsection}{\numberline {b}Median filtering speckle noise}{14}{subsection.4.2}
+\contentsline {section}{\numberline {5}Suppressing Noise Interference Patterns}{16}{section.5}
+\contentsline {subsection}{\numberline {a}Interference patterns}{16}{subsection.5.1}
+\contentsline {subsection}{\numberline {b}Compute Fourier spectrum}{16}{subsection.5.2}
+\contentsline {subsection}{\numberline {c}Reading coordinates}{17}{subsection.5.3}
+\contentsline {subsection}{\numberline {d}Filtering}{18}{subsection.5.4}
+\contentsline {subsection}{\numberline {e}Inverse Fourier transform}{18}{subsection.5.5}
+\contentsline {subsection}{\numberline {f}Jailbreak}{21}{subsection.5.6}
+\contentsline {section}{\numberline {6}Undoing Perspective Distortion of Planar Surface}{24}{section.6}
+\contentsline {subsection}{\numberline {a}Load and display the image}{24}{subsection.6.1}
+\contentsline {subsection}{\numberline {b}Specifying coordinates}{24}{subsection.6.2}
+\contentsline {subsection}{\numberline {c}Linear algebra intermezzo}{25}{subsection.6.3}
+\contentsline {subsection}{\numberline {d}Warping the image}{25}{subsection.6.4}
+\contentsline {subsection}{\numberline {e}Displaying the result}{26}{subsection.6.5}

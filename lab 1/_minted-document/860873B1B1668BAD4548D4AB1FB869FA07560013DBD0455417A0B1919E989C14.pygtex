@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n}{img\PYGZus{}eq2} \PYG{p}{=} \PYG{n}{histeq}\PYG{p}{(}\PYG{n}{img\PYGZus{}eq}\PYG{p}{,} \PYG{l+m+mi}{256}\PYG{p}{);}
+\PYG{n+nb}{figure}
+\PYG{n}{imhist}\PYG{p}{(}\PYG{n}{img\PYGZus{}eq2}\PYG{p}{,} \PYG{l+m+mi}{10}\PYG{p}{)}
+\PYG{n+nb}{figure}
+\PYG{n}{imhist}\PYG{p}{(}\PYG{n}{img\PYGZus{}eq2}\PYG{p}{,} \PYG{l+m+mi}{256}\PYG{p}{)}
+\end{Verbatim}

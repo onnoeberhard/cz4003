@@ -1,0 +1,17 @@
+\BOOKMARK [1][-]{section.1}{Edge Detection}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Load image, transform to greyscale and display}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Sobel edge detection}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Combining edges}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Thresholding}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{Canny edge detection}{section.1}% 6
+\BOOKMARK [1][-]{section.2}{Line Finding using Hough Transform}{}% 7
+\BOOKMARK [2][-]{subsection.2.1}{Canny Edge Detection}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.2}{Hough Transform}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.3}{Find best line}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.4}{Transform coordinates}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.5}{Display image and line}{section.2}% 12
+\BOOKMARK [1][-]{section.3}{3D Stereo}{}% 13
+\BOOKMARK [2][-]{subsection.3.1}{Disparity map algorithm}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.2}{Load images}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.3}{Execute algorithm}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.4}{Using real images}{section.3}% 17

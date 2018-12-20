@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n}{img} \PYG{p}{=} \PYG{n}{rgb2gray}\PYG{p}{(}\PYG{n}{img}\PYG{p}{);}
+\PYG{n+nb}{whos} \PYG{n}{img}
+\end{Verbatim}

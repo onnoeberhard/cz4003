@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n}{img} \PYG{p}{=} \PYG{n+nb}{imread}\PYG{p}{(}\PYG{l+s}{\PYGZsq{}ntugn.jpg\PYGZsq{}}\PYG{p}{);}
+
+\PYG{n}{img\PYGZus{}h1} \PYG{p}{=} \PYG{n}{uint8}\PYG{p}{(}\PYG{n}{medfilt2}\PYG{p}{(}\PYG{n}{img}\PYG{p}{,} \PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{]));}
+\PYG{n+nb}{figure}
+\PYG{n+nb}{imshow}\PYG{p}{(}\PYG{n}{img\PYGZus{}h1}\PYG{p}{)}
+
+\PYG{n}{img\PYGZus{}h2} \PYG{p}{=} \PYG{n}{uint8}\PYG{p}{(}\PYG{n}{medfilt2}\PYG{p}{(}\PYG{n}{img}\PYG{p}{,} \PYG{p}{[}\PYG{l+m+mi}{5}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{]));}
+\PYG{n+nb}{figure}
+\PYG{n+nb}{imshow}\PYG{p}{(}\PYG{n}{img\PYGZus{}h2}\PYG{p}{)}
+\end{Verbatim}

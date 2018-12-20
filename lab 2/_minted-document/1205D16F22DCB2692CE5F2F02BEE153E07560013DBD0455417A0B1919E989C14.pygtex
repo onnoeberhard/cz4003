@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{p}{[}\PYG{n}{i}\PYG{p}{,} \PYG{n}{j}\PYG{p}{]} \PYG{p}{=} \PYG{n+nb}{find}\PYG{p}{(}\PYG{n}{R} \PYG{o}{==} \PYG{n+nb}{max}\PYG{p}{(}\PYG{n}{R}\PYG{p}{(:)));}
+\PYG{n}{radius} \PYG{p}{=} \PYG{n}{xp}\PYG{p}{(}\PYG{n}{i}\PYG{p}{);}
+\PYG{n}{theta} \PYG{p}{=} \PYG{n}{j} \PYG{o}{*} \PYG{n+nb}{pi} \PYG{o}{/} \PYG{l+m+mi}{180}\PYG{p}{;}
+\end{Verbatim}

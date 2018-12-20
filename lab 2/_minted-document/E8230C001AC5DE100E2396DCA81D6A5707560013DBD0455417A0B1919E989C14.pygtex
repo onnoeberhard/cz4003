@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n+nb}{figure}
+\PYG{n+nb}{imshow}\PYG{p}{(}\PYG{n}{img}\PYG{p}{)}
+\PYG{n+nb}{hold} \PYG{n}{on}
+\PYG{n}{x} \PYG{p}{=} \PYG{n+nb}{linspace}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n+nb}{size}\PYG{p}{(}\PYG{n}{img}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{));}
+\PYG{n+nb}{plot}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{(}\PYG{n}{x}\PYG{p}{),} \PYG{l+s}{\PYGZsq{}r\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

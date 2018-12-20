@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{p}{[}\PYG{n}{R}\PYG{p}{,} \PYG{n}{xp}\PYG{p}{]} \PYG{p}{=} \PYG{n}{radon}\PYG{p}{(}\PYG{n}{E}\PYG{p}{);}
+\PYG{n+nb}{figure}
+\PYG{n+nb}{imagesc}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{:}\PYG{l+m+mi}{179}\PYG{p}{,} \PYG{n}{xp}\PYG{p}{,} \PYG{n}{R}\PYG{p}{)}
+\end{Verbatim}

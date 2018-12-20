@@ -1,0 +1,710 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.2)  2 NOV 2018 17:08
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/Users/onno/Projects/CZ4003/lab 1/document.tex"
+(/Users/onno/Projects/CZ4003/lab 1/document.tex
+LaTeX2e <2018-04-01> patch level 5
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@tempdima=\dimen108
+\caption@indent=\dimen109
+\caption@parindent=\dimen110
+\caption@hangindent=\dimen111
+)
+\c@caption@flags=\count88
+\c@ContinuedFloat=\count89
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+\c@subfigure=\count90
+\c@subtable=\count91
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count92
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) (/usr/local/texlive/2018/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2017/07/08 v1.3.1 fvextra - extensions and patches for fancyvrb
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count93
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix <2008/02/07> (tvz)
+\FV@CodeLineNo=\count94
+\FV@InFile=\read1
+\FV@TabBox=\box28
+\c@FancyVerbLine=\count95
+\FV@StepNumber=\count96
+\FV@OutFile=\write3
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count97
+\output=\toks17
+\linenoprevgraf=\count98
+\linenumbersep=\dimen112
+\linenumberwidth=\dimen113
+\c@linenumber=\count99
+\c@pagewiselinenumber=\count100
+\c@LN@truepage=\count101
+\c@internallinenumber=\count102
+\c@internallinenumbers=\count103
+\quotelinenumbersep=\dimen114
+\bframerule=\dimen115
+\bframesep=\dimen116
+\bframebox=\box29
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count104
+\c@FV@TrueTabCounter=\count105
+\FV@TabBox@Group=\box30
+\FV@TmpLength=\skip43
+\c@FV@HighlightLinesStart=\count106
+\c@FV@HighlightLinesStop=\count107
+\FV@LoopCount=\count108
+\FV@NCharsBox=\box31
+\FV@BreakIndent=\dimen117
+\FV@BreakIndentNChars=\count109
+\FV@BreakSymbolSepLeft=\dimen118
+\FV@BreakSymbolSepLeftNChars=\count110
+\FV@BreakSymbolSepRight=\dimen119
+\FV@BreakSymbolSepRightNChars=\count111
+\FV@BreakSymbolIndentLeft=\dimen120
+\FV@BreakSymbolIndentLeftNChars=\count112
+\FV@BreakSymbolIndentRight=\dimen121
+\FV@BreakSymbolIndentRightNChars=\count113
+\c@FancyVerbLineBreakLast=\count114
+\FV@LineBox=\box32
+\FV@LineIndentBox=\box33
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count115
+\calc@Bcount=\count116
+\calc@Adimen=\dimen122
+\calc@Bdimen=\dimen123
+\calc@Askip=\skip44
+\calc@Bskip=\skip45
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count117
+\calc@Cskip=\skip46
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 67.
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
+)
+runsystem(uname -s > "document.w18")...executed.
+
+ (./document.w18)
+runsystem(rm -- "document.w18")...executed.
+
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write4
+\integerpart=\count118
+\decimalpart=\count119
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip47
+\fb@frw=\dimen124
+\fb@frh=\dimen125
+\FrameRule=\dimen126
+\FrameSep=\dimen127
+)
+\minted@appexistsfile=\read2
+\minted@bgbox=\box34
+\minted@code=\write5
+\c@minted@FancyVerbLineTemp=\count120
+\c@minted@pygmentizecounter=\count121
+\@float@every@listing=\toks18
+\c@listing=\count122
+)
+runsystem(mkdir -p _minted-document)...executed.
+
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen128
+\Hy@linkcounter=\count123
+\Hy@pagecounter=\count124
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count125
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4535.
+Package hyperref Info: Link nesting OFF on input line 4540.
+Package hyperref Info: Hyper index ON on input line 4543.
+Package hyperref Info: Plain pages OFF on input line 4550.
+Package hyperref Info: Backreferencing OFF on input line 4555.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4788.
+\c@Hy@tempcnt=\count126
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5141.
+\XeTeXLinkMargin=\dimen129
+\Fld@menulength=\count127
+\Field@Width=\dimen130
+\Fld@charsize=\dimen131
+Package hyperref Info: Hyper figures OFF on input line 6396.
+Package hyperref Info: Link nesting OFF on input line 6401.
+Package hyperref Info: Hyper index ON on input line 6404.
+Package hyperref Info: backreferencing OFF on input line 6411.
+Package hyperref Info: Link coloring OFF on input line 6416.
+Package hyperref Info: Link coloring with OCG OFF on input line 6421.
+Package hyperref Info: PDF/A mode OFF on input line 6426.
+LaTeX Info: Redefining \ref on input line 6466.
+LaTeX Info: Redefining \pageref on input line 6470.
+\Hy@abspage=\count128
+\c@Item=\count129
+\c@Hfootnote=\count130
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/09/30 v6.88a Hyperref driver for pdfTeX
+\Fld@listcount=\count131
+\c@bookmark@seq@number=\count132
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+)
+\Hy@SectionHShift=\skip48
+)
+runsystem(which pygmentize && touch document.aex)...executed.
+
+runsystem(rm document.aex)...executed.
+
+ (./document.aux)
+\openout1 = `document.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+ (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count133
+\scratchdimen=\dimen132
+\scratchbox=\box35
+\nofMPsegments=\count134
+\nofMParguments=\count135
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count136
+\MPscratchDim=\dimen133
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
+\everyMPtoPDFconversion=\toks20
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box36
+Package hyperref Info: Link coloring OFF on input line 11.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count139
+)
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
+ (./document.out) (./document.out)
+\@outlinefile=\write6
+\openout6 = `document.out'.
+
+ [1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./document.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+)
+\tf@toc=\write7
+\openout7 = `document.toc'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 \newpage
+              [1]
+\openout3 = `document.pyg'.
+
+ (./_minted-document/default-pyg-prefix.pygstyle) (./_minted-document/default.pygstyle) (./_minted-document/52EB17CDD30FE00E113E19285360AC1507560013DBD0455417A0B1919E989C14.pygtex)
+\openout3 = `document.pyg'.
+
+ (./_minted-document/DADBB8884CAD8322F8B5EE3D72B28E90465CB4B80AB8635837F495AA1AD82351.pygtex)
+\openout3 = `document.pyg'.
+
+ (./_minted-document/217FED1766F9479E0B77C591433F88A807560013DBD0455417A0B1919E989C14.pygtex)
+\openout3 = `document.pyg'.
+
+ (./_minted-document/2BC963DAC85DE008E3B69E68568DCF46465CB4B80AB8635837F495AA1AD82351.pygtex)
+\openout3 = `document.pyg'.
+
+ (./_minted-document/37B1A062571941BA676E159C28A2EA3B07560013DBD0455417A0B1919E989C14.pygtex) [2]
+<fig1.png, id=182, 660.4675pt x 451.6875pt>
+File: fig1.png Graphic file (type png)
+<use fig1.png>
+Package pdftex.def Info: fig1.png  used on input line 65.
+(pdftex.def)             Requested size: 390.0pt x 266.72765pt.
+\openout3 = `document.pyg'.
+
+ (./_minted-document/574E61AC381533A3FBEEDFECA6E6E54D07560013DBD0455417A0B1919E989C14.pygtex)
+\openout3 = `document.pyg'.
+
+ (./_minted-document/8E68E181091C7C37369B61087B2E1D32465CB4B80AB8635837F495AA1AD82351.pygtex) [3 <./fig1.png (PNG copy)>]
+\openout3 = `document.pyg'.
+
+ (./_minted-document/5E18E49C9236089083A1E4196078E57D07560013DBD0455417A0B1919E989C14.pygtex)
+\openout3 = `document.pyg'.
+
+ (./_minted-document/37B1A062571941BA676E159C28A2EA3B07560013DBD0455417A0B1919E989C14.pygtex)
+<fig2.png, id=189, 660.4675pt x 451.6875pt>
+File: fig2.png Graphic file (type png)
+<use fig2.png>
+Package pdftex.def Info: fig2.png  used on input line 97.
+(pdftex.def)             Requested size: 390.0pt x 266.72765pt.
+\openout3 = `document.pyg'.
+
+ [4 <./fig2.png (PNG copy)>] (./_minted-document/4B6E5DF839B2497B7C12C3F3943AEC6F07560013DBD0455417A0B1919E989C14.pygtex)
+<fig3.png, id=195, 1124.2pt x 843.15pt>
+File: fig3.png Graphic file (type png)
+<use fig3.png>
+Package pdftex.def Info: fig3.png  used on input line 113.
+(pdftex.def)             Requested size: 272.99881pt x 204.74023pt.
+<fig4.png, id=196, 1124.2pt x 843.15pt>
+File: fig4.png Graphic file (type png)
+<use fig4.png>
+Package pdftex.def Info: fig4.png  used on input line 119.
+(pdftex.def)             Requested size: 272.99881pt x 204.74023pt.
+ [5 <./fig3.png (PNG copy)> <./fig4.png (PNG copy)>]
+\openout3 = `document.pyg'.
+
+ (./_minted-document/6C796FF1484856074787DCBDE5229DF807560013DBD0455417A0B1919E989C14.pygtex)
+<fig5.png, id=202, 1124.2pt x 843.15pt>
+File: fig5.png Graphic file (type png)
+<use fig5.png>
+Package pdftex.def Info: fig5.png  used on input line 139.
+(pdftex.def)             Requested size: 272.99881pt x 204.74023pt.
+<fig6.png, id=203, 1124.2pt x 843.15pt>
+File: fig6.png Graphic file (type png)
+<use fig6.png>
+Package pdftex.def Info: fig6.png  used on input line 143.
+(pdftex.def)             Requested size: 272.99881pt x 204.74023pt.
+ [6 <./fig5.png (PNG copy)>]
+\openout3 = `document.pyg'.
+
+ (./_minted-document/860873B1B1668BAD4548D4AB1FB869FA07560013DBD0455417A0B1919E989C14.pygtex) [7 <./fig6.png (PNG copy)>]
+File: fig5.png Graphic file (type png)
+<use fig5.png>
+Package pdftex.def Info: fig5.png  used on input line 160.
+(pdftex.def)             Requested size: 272.99881pt x 204.74023pt.
+File: fig6.png Graphic file (type png)
+<use fig6.png>
+Package pdftex.def Info: fig6.png  used on input line 164.
+(pdftex.def)             Requested size: 272.99881pt x 204.74023pt.
+\openout3 = `document.pyg'.
+
+ [8] (./_minted-document/DEABB3A061B1894F09DEB1D4169638F407560013DBD0455417A0B1919E989C14.pygtex)
+<fig9.png, id=221, 1124.2pt x 843.15pt>
+File: fig9.png Graphic file (type png)
+<use fig9.png>
+Package pdftex.def Info: fig9.png  used on input line 190.
+(pdftex.def)             Requested size: 175.49881pt x 131.6132pt.
+<fig10.png, id=222, 1124.2pt x 843.15pt>
+File: fig10.png Graphic file (type png)
+<use fig10.png>
+Package pdftex.def Info: fig10.png  used on input line 196.
+(pdftex.def)             Requested size: 175.49881pt x 131.6132pt.
+\openout3 = `document.pyg'.
+
+ (./_minted-document/CDADF57F75B120EC4FEFD78CC77BFF4F07560013DBD0455417A0B1919E989C14.pygtex)
+<fig11.png, id=223, 718.685pt x 463.7325pt>
+File: fig11.png Graphic file (type png)
+<use fig11.png>
+Package pdftex.def Info: fig11.png  used on input line 210.
+(pdftex.def)             Requested size: 272.99881pt x 176.1565pt.
+ [9 <./fig9.png (PNG copy)> <./fig10.png (PNG copy)>]
+\openout3 = `document.pyg'.
+
+ (./_minted-document/9CB97E9493E5FD55767653F81CE6968B07560013DBD0455417A0B1919E989C14.pygtex)
+<fig12.png, id=229, 722.7pt x 467.7475pt>
+File: fig12.png Graphic file (type png)
+<use fig12.png>
+Package pdftex.def Info: fig12.png  used on input line 226.
+(pdftex.def)             Requested size: 272.99881pt x 176.68958pt.
+<fig13.png, id=230, 722.7pt x 467.7475pt>
+File: fig13.png Graphic file (type png)
+<use fig13.png>
+Package pdftex.def Info: fig13.png  used on input line 230.
+(pdftex.def)             Requested size: 272.99881pt x 176.68958pt.
+ [10 <./fig11.png (PNG copy)> <./fig12.png (PNG copy)>]
+\openout3 = `document.pyg'.
+
+ (./_minted-document/DDEBB4E7BAEF12268BFAC26B5D17482E07560013DBD0455417A0B1919E989C14.pygtex)
+<fig14.png, id=237, 718.685pt x 463.7325pt>
+File: fig14.png Graphic file (type png)
+<use fig14.png>
+Package pdftex.def Info: fig14.png  used on input line 245.
+(pdftex.def)             Requested size: 272.99881pt x 176.1565pt.
+\openout3 = `document.pyg'.
+
+ [11 <./fig13.png (PNG copy)> <./fig14.png (PNG copy)>] (./_minted-document/9CB97E9493E5FD55767653F81CE6968B07560013DBD0455417A0B1919E989C14.pygtex)
+<fig15.png, id=244, 722.7pt x 467.7475pt>
+File: fig15.png Graphic file (type png)
+<use fig15.png>
+Package pdftex.def Info: fig15.png  used on input line 262.
+(pdftex.def)             Requested size: 272.99881pt x 176.68958pt.
+<fig16.png, id=245, 722.7pt x 467.7475pt>
+File: fig16.png Graphic file (type png)
+<use fig16.png>
+Package pdftex.def Info: fig16.png  used on input line 266.
+(pdftex.def)             Requested size: 272.99881pt x 176.68958pt.
+ [12 <./fig15.png (PNG copy)> <./fig16.png (PNG copy)>]
+\openout3 = `document.pyg'.
+
+ (./_minted-document/3512C548C9483BD3F712390752A7A7C007560013DBD0455417A0B1919E989C14.pygtex)
+<fig17.png, id=253, 718.685pt x 463.7325pt>
+File: fig17.png Graphic file (type png)
+<use fig17.png>
+Package pdftex.def Info: fig17.png  used on input line 288.
+(pdftex.def)             Requested size: 272.99881pt x 176.1565pt.
+<fig18.png, id=254, 718.685pt x 463.7325pt>
+File: fig18.png Graphic file (type png)
+<use fig18.png>
+Package pdftex.def Info: fig18.png  used on input line 292.
+(pdftex.def)             Requested size: 272.99881pt x 176.1565pt.
+ [13 <./fig17.png (PNG copy)>]
+\openout3 = `document.pyg'.
+
+ (./_minted-document/251C1F1FB94F1646BCFEC92F200B569C07560013DBD0455417A0B1919E989C14.pygtex) [14 <./fig18.png (PNG copy)>]
+<fig19.png, id=265, 718.685pt x 463.7325pt>
+File: fig19.png Graphic file (type png)
+<use fig19.png>
+Package pdftex.def Info: fig19.png  used on input line 313.
+(pdftex.def)             Requested size: 272.99881pt x 176.1565pt.
+<fig20.png, id=266, 718.685pt x 463.7325pt>
+File: fig20.png Graphic file (type png)
+<use fig20.png>
+Package pdftex.def Info: fig20.png  used on input line 317.
+(pdftex.def)             Requested size: 272.99881pt x 176.1565pt.
+ [15 <./fig19.png (PNG copy)> <./fig20.png (PNG copy)>]
+\openout3 = `document.pyg'.
+
+ (./_minted-document/0631E36F362685300B50E51A2156ECB907560013DBD0455417A0B1919E989C14.pygtex)
+<fig21.png, id=273, 473.77pt x 387.4475pt>
+File: fig21.png Graphic file (type png)
+<use fig21.png>
+Package pdftex.def Info: fig21.png  used on input line 333.
+(pdftex.def)             Requested size: 272.99881pt x 223.26535pt.
+\openout3 = `document.pyg'.
+
+ (./_minted-document/394D15CDF84CD8B51EC600511ED1E2EC07560013DBD0455417A0B1919E989C14.pygtex) [16 <./fig21.png (PNG copy)>]
+<fig22.png, id=279, 1124.2pt x 843.15pt>
+File: fig22.png Graphic file (type png)
+<use fig22.png>
+Package pdftex.def Info: fig22.png  used on input line 349.
+(pdftex.def)             Requested size: 272.99881pt x 204.74023pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
+
+ []
+
+\openout3 = `document.pyg'.
+
+(./_minted-document/ACB6C5B9A38B04CB3ED977C465A0A5E207560013DBD0455417A0B1919E989C14.pygtex)
+<fig23.png, id=280, 1124.2pt x 843.15pt>
+File: fig23.png Graphic file (type png)
+<use fig23.png>
+Package pdftex.def Info: fig23.png  used on input line 366.
+(pdftex.def)             Requested size: 272.99881pt x 204.74023pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--367
+
+ []
+
+\openout3 = `document.pyg'.
+
+[17 <./fig22.png (PNG copy)> <./fig23.png (PNG copy)>] (./_minted-document/673B1C1DD736A64DE6B11EED1FE11E8A07560013DBD0455417A0B1919E989C14.pygtex)
+<fig24.png, id=287, 1124.2pt x 843.15pt>
+File: fig24.png Graphic file (type png)
+<use fig24.png>
+Package pdftex.def Info: fig24.png  used on input line 381.
+(pdftex.def)             Requested size: 272.99881pt x 204.74023pt.
+\openout3 = `document.pyg'.
+
+ (./_minted-document/A95F4AAFF1AB2F0B11CB1BF2F816129507560013DBD0455417A0B1919E989C14.pygtex) [18 <./fig24.png (PNG copy)>]
+<fig25.png, id=295, 473.77pt x 387.4475pt>
+File: fig25.png Graphic file (type png)
+<use fig25.png>
+Package pdftex.def Info: fig25.png  used on input line 395.
+(pdftex.def)             Requested size: 272.99881pt x 223.26535pt.
+\openout3 = `document.pyg'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--419
+
+ []
+
+(./_minted-document/E85822B433AFA9C84B45A4B57DEA51AA07560013DBD0455417A0B1919E989C14.pygtex)
+<fig26.png, id=296, 1124.2pt x 843.15pt>
+File: fig26.png Graphic file (type png)
+<use fig26.png>
+Package pdftex.def Info: fig26.png  used on input line 423.
+(pdftex.def)             Requested size: 272.99881pt x 204.74023pt.
+ [19 <./fig25.png (PNG copy)>]
+<fig27.png, id=302, 473.77pt x 387.4475pt>
+File: fig27.png Graphic file (type png)
+<use fig27.png>
+Package pdftex.def Info: fig27.png  used on input line 427.
+(pdftex.def)             Requested size: 272.99881pt x 223.26535pt.
+ [20 <./fig26.png (PNG copy)> <./fig27.png (PNG copy)>]
+\openout3 = `document.pyg'.
+
+ (./_minted-document/70553A3070AC0A6CCACF4CC8A91B0B5D07560013DBD0455417A0B1919E989C14.pygtex) [21]
+<fig28.png, id=313, 473.77pt x 387.4475pt>
+File: fig28.png Graphic file (type png)
+<use fig28.png>
+Package pdftex.def Info: fig28.png  used on input line 471.
+(pdftex.def)             Requested size: 272.99881pt x 223.26535pt.
+<fig29.png, id=314, 1124.2pt x 843.15pt>
+File: fig29.png Graphic file (type png)
+<use fig29.png>
+Package pdftex.def Info: fig29.png  used on input line 475.
+(pdftex.def)             Requested size: 272.99881pt x 204.74023pt.
+<fig30.png, id=315, 1124.2pt x 843.15pt>
+File: fig30.png Graphic file (type png)
+<use fig30.png>
+Package pdftex.def Info: fig30.png  used on input line 479.
+(pdftex.def)             Requested size: 272.99881pt x 204.74023pt.
+<fig31.png, id=316, 473.77pt x 387.4475pt>
+File: fig31.png Graphic file (type png)
+<use fig31.png>
+Package pdftex.def Info: fig31.png  used on input line 483.
+(pdftex.def)             Requested size: 272.99881pt x 223.26535pt.
+ [22 <./fig28.png (PNG copy)> <./fig29.png (PNG copy)>] [23 <./fig30.png (PNG copy)> <./fig31.png (PNG copy)>]
+\openout3 = `document.pyg'.
+
+ (./_minted-document/105E7EF7A7BDA15D13ECCD4CB33EC0F807560013DBD0455417A0B1919E989C14.pygtex)
+<fig32.png, id=329, 538.01pt x 371.3875pt>
+File: fig32.png Graphic file (type png)
+<use fig32.png>
+Package pdftex.def Info: fig32.png  used on input line 500.
+(pdftex.def)             Requested size: 272.99881pt x 188.45306pt.
+\openout3 = `document.pyg'.
+
+ (./_minted-document/8EF66CACFAC527E82E7DFF8198171DB407560013DBD0455417A0B1919E989C14.pygtex) [24 <./fig32.png (PNG copy)>]
+\openout3 = `document.pyg'.
+
+ (./_minted-document/2BB217F3A5A63C924B9FD9E628667FA807560013DBD0455417A0B1919E989C14.pygtex
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 4.
+)
+\openout3 = `document.pyg'.
+
+ (./_minted-document/551FA95B692A060FBCFFBEA5C45F826B465CB4B80AB8635837F495AA1AD82351.pygtex)
+\openout3 = `document.pyg'.
+
+ (./_minted-document/7B5AED0C27036E2FF95605628167F66607560013DBD0455417A0B1919E989C14.pygtex) [25]
+\openout3 = `document.pyg'.
+
+ (./_minted-document/136DB0B5040B6010FC2102BCCA4A656C07560013DBD0455417A0B1919E989C14.pygtex)
+<fig33.png, id=340, 427.5975pt x 429.605pt>
+File: fig33.png Graphic file (type png)
+<use fig33.png>
+Package pdftex.def Info: fig33.png  used on input line 561.
+(pdftex.def)             Requested size: 272.99881pt x 274.27762pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 566.
+ [26 <./fig33.png (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 566.
+ (./document.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 566.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 566.
+Package rerunfilecheck Info: File `document.out' has not changed.
+(rerunfilecheck)             Checksum: 7CF3C1F419B0628E930846F83E2BAD19;2260.
+runsystem(rm document.pyg)...executed.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 9957 strings out of 492639
+ 174462 string characters out of 6129302
+ 305407 words of memory out of 5000000
+ 13512 multiletter control sequences out of 15000+600000
+ 10040 words of font info for 36 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 37i,9n,38p,891b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on document.pdf (27 pages, 3647841 bytes).
+PDF statistics:
+ 387 PDF objects out of 1000 (max. 8388607)
+ 318 compressed objects within 4 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 412 words of extra memory for PDF output out of 10000 (max. 10000000)
+
